@@ -9,9 +9,9 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // === RCON CONFIG ===
-const RCON_HOST = 'YOUR_RCON_HOST';
+const RCON_HOST = '127.0.0.1';
 const RCON_PORT = 25575;
-const RCON_PASS = 'YOUR_RCON_PASSWORD';
+const RCON_PASS = '12344321';
 
 let rcon = new Rcon(RCON_HOST, RCON_PORT, { password: RCON_PASS });
 
